@@ -1,0 +1,44 @@
+body {
+  background-color: #ffeaa7;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+  text-align: center;
+}
+button {
+  padding: 20px 20px 20px 20px;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin: 0px 10px;
+}
+
+.box {
+  text-align: center;
+  /* background-color: white; */
+  width: 500px;
+  height: 500px;
+  padding-bottom: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.set {
+  padding: 10px;
+}
